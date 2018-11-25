@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FaultMApp</string>
+    <string name="user_email">Enter your email</string>
+    <string name="sign_in">Sign in</string>
+    <string name="user_password">Enter your password</string>
+    <string name="menu_network_status">Network status</string>
+    <string name="menu_jobs">Jobs</string>
+    <string name="menu_alarms_history">Alarms\' history</string>
+</resources>
