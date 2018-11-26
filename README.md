@@ -3,7 +3,7 @@
 ## Potrzebne narzędzia
 
 * [git](https://git-scm.com/downloads)
-* [Anrdroid Studio](https://developer.android.com/studio/)
+* [Android Studio](https://developer.android.com/studio/)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * Obraz z MiniNetem od Witka (nie wiem gdzie się obecnie znajduje)
 * Telefon z Androidem
