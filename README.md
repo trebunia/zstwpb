@@ -27,3 +27,4 @@ New > Import Project > wybierz katalog do którego sklonowałeś repozytorium
 3. Kliknij "Run" w pasku narzędzi w Android Studio
 4. Wybierz swój telefon i kliknij OK
 
+Testowe dane do logowania: user/user
