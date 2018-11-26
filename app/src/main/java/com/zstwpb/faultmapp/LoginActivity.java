@@ -24,13 +24,16 @@ public class LoginActivity extends AppCompatActivity {
         String login = login_field.getText().toString();
         EditText password_field = (EditText) findViewById(R.id.editText2);
         String password = password_field.getText().toString();
+        // static compare between user input and predefined credentials
         if (login.equals("user") && password.equals("user")) {
+            // if credentials are ok, start MenuActivity and pass credentials to it
             Intent intent = new Intent(this, MenuActivity.class);
             intent.putExtra(LOGIN, login);
             intent.putExtra(PASSWORD, password);
             startActivity(intent);
         }
         else{
+            //if credentials are not ok, display short Toast message in the center
             Context context = getApplicationContext();
             CharSequence text = "Login failed!";
             int duration = Toast.LENGTH_SHORT;
