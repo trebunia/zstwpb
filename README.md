@@ -1,8 +1,8 @@
-# Zarządzanie Siecią Telekomunikacyjną w Praktyce Biznesowej - projekt aplikacji systemu FM dla techników
+# ZSTwPB - Projekt aplikacji systemu FM dla techników
 
 ## Potrzebne narzędzia
 
-* [git] https://git-scm.com/downloads
+* [git](https://git-scm.com/downloads)
 * [Anrdroid Studio](https://developer.android.com/studio/)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * Obraz z MiniNetem od Witka (nie wiem gdzie się obecnie znajduje)
