@@ -22,7 +22,7 @@ public class JobsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jobs);
         if(getIntent().getExtras() != null){
-            String errors = getIntent().getExtras().getString("value");
+            String errors = getIntent().getExtras().getString("value")+"\nTechnik: user\n";
             if(errors != null){
                 carL.add(errors);
             }}

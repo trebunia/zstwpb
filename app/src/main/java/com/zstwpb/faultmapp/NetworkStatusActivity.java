@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class NetworkStatusActivity extends AppCompatActivity {
-    static String cars[] = {"Broken link between: s1 and s2.  Time: 21:21:33   Date: 14.01.2019   Location: Krakow", "Broken link between: s3 and s4.  Time: 12:11:43  Date: 14.01.2019   Location: Wroclaw", "Broken link between: s5 and s6.  Time: 16:21:18  Date: 14.01.2019   Location: Warszawa"};
+    static String cars[] = {"Broken link between: s1 and s2. \nOccurence Time: 21:21:33  Date: 14.01.2019 \nLocation: 50.078761, 19.886883", "Broken link between: s3 and s4. \nOccurence time: 12:11:43  Date: 14.01.2019 \nLocation: 50.071834, 19.924990", "Broken link between: s5 and s6.\nOccurence time: 16:21:18  Date: 14.01.2019 \nLocation: 50.049319, 19.931664"};
     static ArrayList<String> carL = new ArrayList<String>(Arrays.asList(cars));
     @Override
     protected void onCreate(Bundle savedInstanceState) {
